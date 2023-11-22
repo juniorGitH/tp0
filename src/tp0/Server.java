@@ -12,7 +12,7 @@ import java.net.Socket;
 public class Server {
     public static void main(String[] args) throws IOException {
          ServerSocket ss = new ServerSocket(1234);
-         System.out.println("Démarrage du serveur");
+         System.out.println("Démarrag du serveur");
          
          Socket s = ss.accept();
          
@@ -31,7 +31,8 @@ public class Server {
          String chaine = br.readLine();
          int n = chaine.length();
          
-         pw.println("La longueur de la chaine est :" +n);
+         pw.println("La longueur de la chaine es :" +n);
+         
     }
      
     
