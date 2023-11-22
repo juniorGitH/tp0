@@ -32,6 +32,7 @@ public class Server {
          int n = chaine.length();
          
          pw.println("La longueur de la chaine est :" +n);
+         
     }
      
     
